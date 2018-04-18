@@ -10,8 +10,8 @@ namespace Flower\Rose;
 
 class Rose
 {
-    public function desc()
+    public static function desc($ob1,$ob2)
     {
-        echo "this is rose flower";
+        echo "this is $ob1 flower $ob2";
     }
 }
